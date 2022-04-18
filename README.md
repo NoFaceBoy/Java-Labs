@@ -14,3 +14,7 @@ Lab 3 task description:
 - The implementation of sorting should provide the ability to sort both in descending and ascending order.
 
 Use the built-in sorting methods available in Java to sort
+
+Lab 4 task description:
+
+- Convert a project with 2-3 labs so that its build can be done with Maven.
