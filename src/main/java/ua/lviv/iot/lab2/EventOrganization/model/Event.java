@@ -22,6 +22,10 @@ public abstract class Event {
 		this.maxNumberOfKidsInvolved = maxNumberOfKidsInvolved;
 		this.durationInHours = durationInHours;
 	}
+	
+	public String getHeaders() {
+	    return "Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours";
+	  }
 	@Override
 	public String toString()
     {
@@ -32,4 +36,8 @@ public abstract class Event {
         		+ "  Max number of kids involved: " + maxNumberOfKidsInvolved 
         		+ "  Duration in hours: " + durationInHours + "|";
     }
+
+	public String toCSV() {
+		return name + "," + eventType + "," + price + "," + isIndoors + "," + maxNumberOfKidsInvolved + "," + durationInHours;
+	}
 }

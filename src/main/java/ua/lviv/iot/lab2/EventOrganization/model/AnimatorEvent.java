@@ -9,4 +9,13 @@ public class AnimatorEvent extends ActiveEvent {
 		super(name, eventType, price, isIndoors, maxNumberOfKidsInvolved, durationInHours);
 		this.numberOfAnimators = numberOfAnimators;
 	}
+	@Override
+	  public String getHeaders() {
+	    return super.getHeaders() + ",NumberOfAnimators";
+	  }
+	
+	@Override
+	  public String toCSV() {
+	    return super.toCSV() + "," + numberOfAnimators;
+	}
 }

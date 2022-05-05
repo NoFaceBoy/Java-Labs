@@ -9,5 +9,13 @@ public class TrampolineEvent extends ActiveEvent {
 		super(name, eventType, price, isIndoors, maxNumberOfKidsInvolved, durationInHours);
 		this.minutesSpentPerKid = minutesSpentPerKid;
 	}
+	@Override
+	  public String getHeaders() {
+	    return super.getHeaders() + ",MinutesSpentPerKid";
+	  }
 
+	@Override
+	  public String toCSV() {
+	    return super.toCSV() + "," + minutesSpentPerKid;
+	}
 }
