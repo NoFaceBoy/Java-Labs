@@ -22,10 +22,10 @@ public abstract class Event {
 		this.maxNumberOfKidsInvolved = maxNumberOfKidsInvolved;
 		this.durationInHours = durationInHours;
 	}
-	
 	public String getHeaders() {
 	    return "Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours";
 	  }
+	
 	@Override
 	public String toString()
     {
