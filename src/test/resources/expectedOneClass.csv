@@ -1,0 +1,3 @@
+Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours,FilmName
+Multiplex Movie,CINEMA,500.0,true,5,1.5,Spiderman
+PlanetaKino Movie,CINEMA,160.0,true,2,1.8,Interstellar

@@ -1,0 +1,9 @@
+Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours,FilmName
+Multiplex Movie,CINEMA,500.0,true,5,1.5,Spiderman
+PlanetaKino Movie,CINEMA,160.0,true,2,1.8,Interstellar
+Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours,FloorProtectionNeeded,KidsInvolved
+Big Bubbles,BUBBLE,850.0,true,5,1.0,true,true
+Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours,NumberOfAnimators
+Superhero Animators,ANIMATOR,2500.0,true,8,4.0,2
+Name,EventType,Price,IsIndoors,MaxNumberOfKidsInvolved,DurationInHours,MinutesSpentPerKid
+Regular Trampoline,TRAMPOLINE,3000.0,false,4,1.0,25

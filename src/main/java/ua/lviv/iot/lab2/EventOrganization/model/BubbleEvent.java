@@ -11,5 +11,13 @@ public class BubbleEvent extends ActiveEvent {
 		this.floorProtectionNeeded = floorProtectionNeeded;
 		this.kidsInvolved = kidsInvolved;
 	}
-
+	@Override
+	  public String getHeaders() {
+	    return super.getHeaders() + ",FloorProtectionNeeded,KidsInvolved";
+	  }
+	
+	@Override
+	  public String toCSV() {
+	    return super.toCSV() + "," + floorProtectionNeeded + "," + kidsInvolved;
+	}
 }

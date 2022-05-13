@@ -9,4 +9,13 @@ public class CinemaEvent extends PassiveEvent {
 		super(name, eventType, price, isIndoors, maxNumberOfKidsInvolved, durationInHours);
 		this.filmName = filmName;
 	}
+	@Override
+	  public String getHeaders() {
+	    return super.getHeaders() + ",FilmName";
+	  }
+	
+	@Override
+	  public String toCSV() {
+	    return super.toCSV() + "," + filmName;
+	}
 }

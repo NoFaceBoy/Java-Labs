@@ -18,3 +18,12 @@ Use the built-in sorting methods available in Java to sort
 Lab 4 task description:
 
 - Convert a project with 2-3 labs so that its build can be done with Maven.
+
+Lab 5 task description:
+
+- Write modular tests for the project.
+- Achieve around 80% code coverage with tests.
+
+Lab 6 task description:
+
+- Create a method to record the list of objects of class hierarchy, implemented in the 3rd lab, in the CSV file.

@@ -1,0 +1,47 @@
+[33mcommit 71485780662c3ab4069d8264a47b93fc3fe98d43[m[33m ([m[1;36mHEAD -> [m[1;32mlab5[m[33m, [m[1;31morigin/lab5[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Fri May 13 23:56:48 2022 +0300
+
+    Added needed files and tests for lab7
+
+[33mcommit d414fcb1c674c11273105ae138b9f312c08905a5[m[33m ([m[1;32mlab7[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Thu May 5 19:16:59 2022 +0300
+
+    Updated README file
+
+[33mcommit 1723588a037d64ab2629f2f259b7fa612e9c2f79[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Thu May 5 19:13:35 2022 +0300
+
+    Added lab6 files
+
+[33mcommit 52ca15fb2b1a9220f1210ff1ff216de7540a2554[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Tue May 3 19:25:08 2022 +0300
+
+    Added EventManagerTest
+
+[33mcommit 236fbc824a37ceba8619a2fd6ff65b17a019b60b[m[33m ([m[1;31morigin/lab4[m[33m, [m[1;32mlab4[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Thu Apr 14 03:08:54 2022 +0300
+
+    Added lab4 files
+
+[33mcommit 7567776a806d1ab74733642ad122445ff175c692[m[33m ([m[1;31morigin/lab3[m[33m, [m[1;32mlab3[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Wed Apr 13 20:42:29 2022 +0300
+
+    Added lab3 files
+
+[33mcommit f17effe33aa9a78ac90a467d01e0b78acebd3a0a[m[33m ([m[1;31morigin/lab2[m[33m, [m[1;32mlab2[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Sun Apr 10 01:58:42 2022 +0300
+
+    Added lab2 files
+
+[33mcommit 5a31f9b09e88fd337e961c7f0455d91a4d01f603[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Oleksandr Teliuk <telyuksasha@gmail.com>
+Date:   Sun Apr 10 01:57:14 2022 +0300
+
+    Added README file
