@@ -17,9 +17,8 @@ public class NumberPlatesChanger {
 		final String textChangePlatesTo = "CAR_NUMBER";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(text);
-		while (matcher.find())
-		{
-		    System.out.println(matcher.group());
+		while (matcher.find()) {
+			System.out.println(matcher.group());
 		}
 		String replacedText = matcher.replaceAll(textChangePlatesTo);
 		System.out.println(replacedText);
